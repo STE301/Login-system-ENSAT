@@ -1,0 +1,39 @@
+
+  .nav-horizontal {
+    background-color: #AAB8C9;
+    overflow: hidden;
+    height: 3em;
+    width: 100%;
+    margin-top: -7.5%;
+  }
+    
+    .mask {
+      height: 5em;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .list {
+      display: inline-table;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+    li {
+      display: table-cell;
+      }
+  
+    .men {
+        display: block;
+        padding: 0 1em;
+        text-decoration: none;
+        color: #333;
+        height: 3em;
+        line-height: 3;
+      }
+    .men:hover {
+          border-bottom: 2px solid black;
+          background-color: #dbd2d2;
+        }
+  
+*{box-sizing: border-box;}body{font-family:sans-serif;padding-top: 100px;width:100vw;background-color:rgb(143, 152, 233);}
